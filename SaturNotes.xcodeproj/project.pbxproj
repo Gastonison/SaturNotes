@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3215E2810B40C262DE5C7E /* Pods_SaturNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646D048E0B4E9D39822DC7EB /* Pods_SaturNotes.framework */; };
+		EB29AA4024CE0D8D0059F3CA /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29AA3F24CE0D8D0059F3CA /* UIImageExtension.swift */; };
+		EB29AA4224CE1F430059F3CA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29AA4124CE1F430059F3CA /* Utilities.swift */; };
 		EB7AAC2824CB915400A74F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC2724CB915400A74F18 /* AppDelegate.swift */; };
 		EB7AAC2A24CB915400A74F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC2924CB915400A74F18 /* SceneDelegate.swift */; };
-		EB7AAC2C24CB915400A74F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC2B24CB915400A74F18 /* ViewController.swift */; };
+		EB7AAC2C24CB915400A74F18 /* NoteIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC2B24CB915400A74F18 /* NoteIndexViewController.swift */; };
 		EB7AAC2F24CB915400A74F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7AAC2D24CB915400A74F18 /* Main.storyboard */; };
 		EB7AAC3124CB915500A74F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7AAC3024CB915500A74F18 /* Assets.xcassets */; };
 		EB7AAC3424CB915500A74F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7AAC3224CB915500A74F18 /* LaunchScreen.storyboard */; };
+		EB7AAC3C24CB925500A74F18 /* NoteEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC3B24CB925500A74F18 /* NoteEditorViewController.swift */; };
+		EB7AAC4224CB946B00A74F18 /* SaturnNoteWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC4124CB946B00A74F18 /* SaturnNoteWebService.swift */; };
+		EB7AAC4524CB994800A74F18 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC4424CB994800A74F18 /* Constants.swift */; };
+		EB7AAC4724CB9A4000A74F18 /* NoteIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC4624CB9A4000A74F18 /* NoteIndexViewModel.swift */; };
+		EB7AAC4924CB9A4A00A74F18 /* NoteEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC4824CB9A4A00A74F18 /* NoteEditorViewModel.swift */; };
+		EB7AAC4C24CB9A6300A74F18 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC4B24CB9A6300A74F18 /* Note.swift */; };
+		EB7AAC5024CB9EE600A74F18 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC4F24CB9EE600A74F18 /* CellViewModel.swift */; };
+		EB7AAC5224CB9F4400A74F18 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC5124CB9F4400A74F18 /* ConfigurableCell.swift */; };
+		EB7AAC5424CB9F9400A74F18 /* NoteCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC5324CB9F9400A74F18 /* NoteCellView.swift */; };
+		EB7AAC5624CBA51D00A74F18 /* NoteCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7AAC5524CBA51D00A74F18 /* NoteCellViewModel.swift */; };
+		EBBB402D24CCB8DD004B4E6A /* NoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB402C24CCB8DD004B4E6A /* NoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		646D048E0B4E9D39822DC7EB /* Pods_SaturNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaturNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B798F987ED6C8702C5F50A86 /* Pods-SaturNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaturNotes.release.xcconfig"; path = "Target Support Files/Pods-SaturNotes/Pods-SaturNotes.release.xcconfig"; sourceTree = "<group>"; };
+		EB29AA3F24CE0D8D0059F3CA /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		EB29AA4124CE1F430059F3CA /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		EB7AAC2424CB915400A74F18 /* SaturNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaturNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7AAC2724CB915400A74F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7AAC2924CB915400A74F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB7AAC2B24CB915400A74F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB7AAC2B24CB915400A74F18 /* NoteIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteIndexViewController.swift; sourceTree = "<group>"; };
 		EB7AAC2E24CB915400A74F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB7AAC3024CB915500A74F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB7AAC3324CB915500A74F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB7AAC3524CB915500A74F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7AAC3B24CB925500A74F18 /* NoteEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorViewController.swift; sourceTree = "<group>"; };
+		EB7AAC4124CB946B00A74F18 /* SaturnNoteWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturnNoteWebService.swift; sourceTree = "<group>"; };
+		EB7AAC4424CB994800A74F18 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EB7AAC4624CB9A4000A74F18 /* NoteIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteIndexViewModel.swift; sourceTree = "<group>"; };
+		EB7AAC4824CB9A4A00A74F18 /* NoteEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorViewModel.swift; sourceTree = "<group>"; };
+		EB7AAC4B24CB9A6300A74F18 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		EB7AAC4F24CB9EE600A74F18 /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
+		EB7AAC5124CB9F4400A74F18 /* ConfigurableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
+		EB7AAC5324CB9F9400A74F18 /* NoteCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellView.swift; sourceTree = "<group>"; };
+		EB7AAC5524CBA51D00A74F18 /* NoteCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellViewModel.swift; sourceTree = "<group>"; };
+		EBBB402C24CCB8DD004B4E6A /* NoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteImage.swift; sourceTree = "<group>"; };
+		ED0806FFE8974011D0499CCF /* Pods-SaturNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaturNotes.debug.xcconfig"; path = "Target Support Files/Pods-SaturNotes/Pods-SaturNotes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3215E2810B40C262DE5C7E /* Pods_SaturNotes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EF8F14259245E0157B1C00B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				646D048E0B4E9D39822DC7EB /* Pods_SaturNotes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A0FDD6BEB1885D82C6C83BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED0806FFE8974011D0499CCF /* Pods-SaturNotes.debug.xcconfig */,
+				B798F987ED6C8702C5F50A86 /* Pods-SaturNotes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EB7AAC1B24CB915400A74F18 = {
 			isa = PBXGroup;
 			children = (
 				EB7AAC2624CB915400A74F18 /* SaturNotes */,
 				EB7AAC2524CB915400A74F18 /* Products */,
+				5A0FDD6BEB1885D82C6C83BB /* Pods */,
+				0EF8F14259245E0157B1C00B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +106,100 @@
 		EB7AAC2624CB915400A74F18 /* SaturNotes */ = {
 			isa = PBXGroup;
 			children = (
+				EB7AAC3E24CB93A200A74F18 /* Core */,
+				EB7AAC4A24CB9A5100A74F18 /* Models */,
+				EB7AAC4024CB942600A74F18 /* Services */,
+				EB7AAC4324CB993A00A74F18 /* Globals */,
+				EB7AAC4E24CB9ED800A74F18 /* Utilities */,
 				EB7AAC2724CB915400A74F18 /* AppDelegate.swift */,
 				EB7AAC2924CB915400A74F18 /* SceneDelegate.swift */,
-				EB7AAC2B24CB915400A74F18 /* ViewController.swift */,
-				EB7AAC2D24CB915400A74F18 /* Main.storyboard */,
 				EB7AAC3024CB915500A74F18 /* Assets.xcassets */,
 				EB7AAC3224CB915500A74F18 /* LaunchScreen.storyboard */,
 				EB7AAC3524CB915500A74F18 /* Info.plist */,
 			);
 			path = SaturNotes;
+			sourceTree = "<group>";
+		};
+		EB7AAC3D24CB92DD00A74F18 /* Note Index */ = {
+			isa = PBXGroup;
+			children = (
+				EB7AAC2B24CB915400A74F18 /* NoteIndexViewController.swift */,
+				EB7AAC4624CB9A4000A74F18 /* NoteIndexViewModel.swift */,
+				EB7AAC4D24CB9E9500A74F18 /* Cells */,
+			);
+			path = "Note Index";
+			sourceTree = "<group>";
+		};
+		EB7AAC3E24CB93A200A74F18 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EB7AAC5724CBB85C00A74F18 /* Views */,
+				EB7AAC3D24CB92DD00A74F18 /* Note Index */,
+				EB7AAC3F24CB93B100A74F18 /* Note Editor */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EB7AAC3F24CB93B100A74F18 /* Note Editor */ = {
+			isa = PBXGroup;
+			children = (
+				EB7AAC3B24CB925500A74F18 /* NoteEditorViewController.swift */,
+				EB7AAC4824CB9A4A00A74F18 /* NoteEditorViewModel.swift */,
+			);
+			path = "Note Editor";
+			sourceTree = "<group>";
+		};
+		EB7AAC4024CB942600A74F18 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EB7AAC4124CB946B00A74F18 /* SaturnNoteWebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EB7AAC4324CB993A00A74F18 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				EB7AAC4424CB994800A74F18 /* Constants.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		EB7AAC4A24CB9A5100A74F18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB7AAC4B24CB9A6300A74F18 /* Note.swift */,
+				EBBB402C24CCB8DD004B4E6A /* NoteImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB7AAC4D24CB9E9500A74F18 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EB7AAC5324CB9F9400A74F18 /* NoteCellView.swift */,
+				EB7AAC5524CBA51D00A74F18 /* NoteCellViewModel.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EB7AAC4E24CB9ED800A74F18 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EB7AAC4F24CB9EE600A74F18 /* CellViewModel.swift */,
+				EB7AAC5124CB9F4400A74F18 /* ConfigurableCell.swift */,
+				EB29AA3F24CE0D8D0059F3CA /* UIImageExtension.swift */,
+				EB29AA4124CE1F430059F3CA /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EB7AAC5724CBB85C00A74F18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB7AAC2D24CB915400A74F18 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7AAC3824CB915500A74F18 /* Build configuration list for PBXNativeTarget "SaturNotes" */;
 			buildPhases = (
+				C2EC6C64D430A26BA45CB559 /* [CP] Check Pods Manifest.lock */,
 				EB7AAC2024CB915400A74F18 /* Sources */,
 				EB7AAC2124CB915400A74F18 /* Frameworks */,
 				EB7AAC2224CB915400A74F18 /* Resources */,
+				E9BAD97D7F1472F127C1308A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +270,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C2EC6C64D430A26BA45CB559 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaturNotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9BAD97D7F1472F127C1308A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaturNotes/Pods-SaturNotes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaturNotes/Pods-SaturNotes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaturNotes/Pods-SaturNotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB7AAC2024CB915400A74F18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB7AAC2C24CB915400A74F18 /* ViewController.swift in Sources */,
+				EB7AAC5624CBA51D00A74F18 /* NoteCellViewModel.swift in Sources */,
+				EB7AAC4724CB9A4000A74F18 /* NoteIndexViewModel.swift in Sources */,
+				EB7AAC2C24CB915400A74F18 /* NoteIndexViewController.swift in Sources */,
+				EB7AAC3C24CB925500A74F18 /* NoteEditorViewController.swift in Sources */,
+				EB29AA4224CE1F430059F3CA /* Utilities.swift in Sources */,
+				EB7AAC4224CB946B00A74F18 /* SaturnNoteWebService.swift in Sources */,
+				EBBB402D24CCB8DD004B4E6A /* NoteImage.swift in Sources */,
+				EB7AAC5424CB9F9400A74F18 /* NoteCellView.swift in Sources */,
 				EB7AAC2824CB915400A74F18 /* AppDelegate.swift in Sources */,
+				EB7AAC5024CB9EE600A74F18 /* CellViewModel.swift in Sources */,
+				EB7AAC4C24CB9A6300A74F18 /* Note.swift in Sources */,
+				EB29AA4024CE0D8D0059F3CA /* UIImageExtension.swift in Sources */,
+				EB7AAC4924CB9A4A00A74F18 /* NoteEditorViewModel.swift in Sources */,
 				EB7AAC2A24CB915400A74F18 /* SceneDelegate.swift in Sources */,
+				EB7AAC4524CB994800A74F18 /* Constants.swift in Sources */,
+				EB7AAC5224CB9F4400A74F18 /* ConfigurableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,9 +474,11 @@
 		};
 		EB7AAC3924CB915500A74F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0806FFE8974011D0499CCF /* Pods-SaturNotes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SaturNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +493,11 @@
 		};
 		EB7AAC3A24CB915500A74F18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B798F987ED6C8702C5F50A86 /* Pods-SaturNotes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SaturNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
