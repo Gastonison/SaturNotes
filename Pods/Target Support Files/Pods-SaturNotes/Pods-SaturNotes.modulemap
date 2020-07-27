@@ -1,6 +1,0 @@
-framework module Pods_SaturNotes {
-  umbrella header "Pods-SaturNotes-umbrella.h"
-
-  export *
-  module * { export * }
-}
