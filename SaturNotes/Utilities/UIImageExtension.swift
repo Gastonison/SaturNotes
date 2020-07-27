@@ -41,10 +41,12 @@ extension UIImage {
                         attributes: nil)
                 }
                 catch {
-                    
-                    callback(Result.failure(error))
+                    DispatchQueue.main.async {
+                        callback(Result.failure(error))
+                    }
                 }
             }
+            
             do {
                 try data.write(to: filename)
                 DispatchQueue.main.async {
@@ -52,7 +54,9 @@ extension UIImage {
                 }                
             }
             catch {
-                callback(Result.failure(error))
+                DispatchQueue.main.async {
+                    callback(Result.failure(error))
+                }
             }
         }
                 

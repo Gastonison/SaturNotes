@@ -77,10 +77,8 @@ struct SaturnNoteWebService {
                     
                 case .failure(let error):
                     fail?(error)
-                }
-                
+                }                
         }
-        
     }
     
     static func getNotes(
@@ -110,7 +108,6 @@ struct SaturnNoteWebService {
                 case .failure(let error):
                     fail?(error)
                 }
-                
         }
     }
     
@@ -157,7 +154,7 @@ struct SaturnNoteWebService {
             default:
                 break
             }
-                        
+            
             switch method {
             case .post, .put:
                 return try JSONEncoding.default
@@ -166,7 +163,6 @@ struct SaturnNoteWebService {
                 return try URLEncoding.default
                     .encode(urlRequest, with: parameters)
             }
-            
         }
     }
 }

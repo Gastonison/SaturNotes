@@ -38,12 +38,9 @@ class Note: Object {
 
         if let imageJSON = json["image"] as? [String: Any] {
             self.noteImage = NoteImage(json: imageJSON, localResourceURL: localResourceURL)
-            
-            
         }
         
         self.state = state
-        
     }
     
     convenience init(title: String, localResourceURL: String?) {

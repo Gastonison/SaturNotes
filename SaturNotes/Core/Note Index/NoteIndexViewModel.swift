@@ -42,7 +42,6 @@ class NoteIndexViewModel {
         } catch {
             print("Unable to start notifier")
         }
-        
     }
     
     func setupCellObserver() {
@@ -107,7 +106,6 @@ class NoteIndexViewModel {
             forPrimaryKey: cellModel.id) {
             uploadNote(note)
         }
-        
     }
     
     func uploadNote(_ note: Note) {

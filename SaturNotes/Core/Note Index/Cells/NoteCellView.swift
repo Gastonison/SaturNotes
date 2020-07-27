@@ -49,10 +49,8 @@ class NoteCellView: UITableViewCell, ConfigurableCell {
                     with: imageURL,
                     placeholderImage: nil,
                     context: [.imageThumbnailPixelSize : CGSize(width: 350, height: 350)])
-            case .outOfDate:
+            case .outOfDate, .updating:
                 self.noteImageView.sd_setImage(with: imageURL, completed: nil)
-            default:
-                break
             }
         }
         

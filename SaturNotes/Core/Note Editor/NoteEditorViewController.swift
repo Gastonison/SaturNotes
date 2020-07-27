@@ -58,8 +58,6 @@ class NoteEditorViewController: UIViewController, NoteEditorViewModelDelegate, U
         picker.dismiss(animated: true, completion: nil)
         guard let image = info[.originalImage] as? UIImage else { return }
         self.imageView.image = image
-        
-        
     }
     
 }

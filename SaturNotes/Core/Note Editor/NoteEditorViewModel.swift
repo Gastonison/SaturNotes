@@ -30,7 +30,6 @@ class NoteEditorViewModel {
     }
     
     func doneTapped(title: String, image: UIImage) {
-     
         image.saveToDocuments { [weak self] (result) in
             guard let strongSelf = self else { return }
             switch result {
@@ -57,8 +56,5 @@ class NoteEditorViewModel {
                 print(error)
             }
         }
-        
-
-        
     }
 }
