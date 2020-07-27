@@ -114,8 +114,6 @@ class NoteIndexViewModel {
         let realm = try! Realm()
         let noteRef = ThreadSafeReference(to: note)
         
-        
-        
         try? realm.write {
             if !note.isInvalidated {
                 note.state = .updating
